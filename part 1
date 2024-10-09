@@ -1,0 +1,173 @@
+# Circular Motion (Class 11, NCERT Physics)
+
+**Circular motion** is the motion of an object along the circumference of a circle. This motion can be uniform or non-uniform, depending on whether the speed of the object is constant or changing.
+
+## Types of Circular Motion
+1. **Uniform Circular Motion**: When an object moves in a circular path with a **constant speed**.
+2. **Non-Uniform Circular Motion**: When the speed of the object **varies** as it moves around the circle.
+
+## Key Concepts in Circular Motion:
+
+### 1. Angular Displacement (\(\theta\)):
+- Angular displacement is the angle swept by a radius of the circular path in a given time.
+- Measured in **radians (rad)**.
+- Formula:  
+  \[
+  \theta = \frac{s}{r}
+  \]
+  where:  
+  - \(s\) = arc length  
+  - \(r\) = radius of the circle
+
+### 2. Angular Velocity (\(\omega\)):
+- The rate at which the object rotates, i.e., how fast the angular displacement changes with time.
+- Formula:  
+  \[
+  \omega = \frac{\theta}{t}
+  \]
+  where:  
+  - \(\omega\) = angular velocity (rad/s)  
+  - \(\theta\) = angular displacement  
+  - \(t\) = time
+
+### 3. Linear Velocity (\(v\)):
+- The speed of the object moving along the circumference of the circle.
+- Related to angular velocity by the formula:  
+  \[
+  v = r \cdot \omega
+  \]
+  where:  
+  - \(v\) = linear velocity (m/s)  
+  - \(r\) = radius of the circle  
+  - \(\omega\) = angular velocity (rad/s)
+
+### 4. Centripetal Acceleration (\(a_c\)):
+- The acceleration directed towards the center of the circle that keeps the object moving in the circular path.
+- Formula:  
+  \[
+  a_c = \frac{v^2}{r}
+  \]  
+  or, using angular velocity:  
+  \[
+  a_c = r \cdot \omega^2
+  \]
+  where:  
+  - \(a_c\) = centripetal acceleration (m/s²)  
+  - \(v\) = linear velocity  
+  - \(r\) = radius of the circle  
+  - \(\omega\) = angular velocity
+
+### 5. Centripetal Force (\(F_c\)):
+- The net force acting towards the center of the circle that keeps the object in circular motion.
+- Formula:  
+  \[
+  F_c = m \cdot a_c = m \cdot \frac{v^2}{r}
+  \]  
+  or:  
+  \[
+  F_c = m \cdot r \cdot \omega^2
+  \]
+  where:  
+  - \(F_c\) = centripetal force (N)  
+  - \(m\) = mass of the object (kg)  
+  - \(v\) = linear velocity  
+  - \(r\) = radius of the circle  
+  - \(\omega\) = angular velocity
+
+### 6. Time Period (\(T\)):
+- The time taken by the object to complete one full revolution in the circular path.
+- Formula:  
+  \[
+  T = \frac{2\pi r}{v} = \frac{2\pi}{\omega}
+  \]
+  where:  
+  - \(T\) = time period (s)  
+  - \(v\) = linear velocity  
+  - \(\omega\) = angular velocity
+
+### 7. Frequency (\(f\)):
+- The number of complete revolutions the object makes in one second.
+- Related to the time period by:  
+  \[
+  f = \frac{1}{T}
+  \]
+  where:  
+  - \(f\) = frequency (Hz)  
+  - \(T\) = time period (s)
+
+---
+
+## Example Problem:
+
+### Problem:
+A car moves in a circular path of radius 100 m with a speed of 10 m/s. Calculate the centripetal acceleration and centripetal force if the mass of the car is 1500 kg.
+
+### Solution:
+
+1. **Centripetal Acceleration**:  
+   \[
+   a_c = \frac{v^2}{r} = \frac{(10)^2}{100} = \frac{100}{100} = 1 \, \text{m/s}^2
+   \]
+
+2. **Centripetal Force**:  
+   \[
+   F_c = m \cdot a_c = 1500 \cdot 1 = 1500 \, \text{N}
+   \]
+
+So, the **centripetal acceleration** is 1 m/s² and the **centripetal force** is 1500 N.
+
+---
+
+## Summary of Important Formulas:
+- Angular Displacement: \(\theta = \frac{s}{r}\)
+- Angular Velocity: \(\omega = \frac{\theta}{t}\)
+- Linear Velocity: \(v = r \cdot \omega\)
+- Centripetal Acceleration: \(a_c = \frac{v^2}{r}\) or \(a_c = r \cdot \omega^2\)
+- Centripetal Force: \(F_c = m \cdot \frac{v^2}{r}\) or \(F_c = m \cdot r \cdot \omega^2\)
+- Time Period: \(T = \frac{2\pi r}{v} = \frac{2\pi}{\omega}\)
+- Frequency: \(f = \frac{1}{T}\)
+
+---
+
+# Circular Motion Numericals
+
+### 1. A particle moves in a circle of radius 50 meters, making 5 complete revolutions in 10 seconds. Calculate the linear velocity.
+
+**Solution**:  
+Time period (\(T\)) = Time for 1 revolution = Total time / Number of revolutions  
+\( T = \frac{10}{5} = 2 \) seconds  
+Angular velocity (\(\omega\)) = \( \frac{2\pi}{T} = \frac{2\pi}{2} = \pi \) rad/s  
+Linear velocity (\(v\)) = \( r \cdot \omega = 50 \cdot \pi = 157.08 \) m/s
+
+---
+
+### 2. A car is moving in a circular track of radius 200 meters with a constant speed of 20 m/s. Calculate the centripetal acceleration.
+
+**Solution**:  
+Centripetal acceleration (\(a_c\)) = \( \frac{v^2}{r} \)  
+\( a_c = \frac{20^2}{200} = \frac{400}{200} = 2 \) m/s²
+
+---
+
+### 3. An object moves in a circular path with a radius of 10 meters at an angular velocity of 6 rad/s. Find its linear velocity and centripetal acceleration.
+
+**Solution**:  
+Linear velocity (\(v\)) = \( r \cdot \omega = 10 \cdot 6 = 60 \) m/s  
+Centripetal acceleration (\(a_c\)) = \( r \cdot \omega^2 = 10 \cdot 6^2 = 10 \cdot 36 = 360 \) m/s²
+
+---
+
+### 4. A bike is moving around a circular path of radius 80 meters. If the speed of the bike is 12 m/s, calculate the centripetal acceleration.
+
+**Solution**:  
+Centripetal acceleration (\(a_c\)) = \( \frac{v^2}{r} \)  
+\( a_c = \frac{12^2}{80} = \frac{144}{80} = 1.8 \) m/s²
+
+---
+
+### 5. A satellite orbits Earth in a circular path of radius 7000 km with a constant speed of 8000 m/s. Determine the centripetal acceleration.
+
+**Solution**:  
+Centripetal acceleration (\(a_c\)) = \( \frac{v^2}{r} \)  
+Convert radius to meters: 7000 km = 7,000,000 m  
+\( a_c = \frac{8000^2}{7,000,000} = \frac{64,000,000}{7,000,000} = 9.14 \) m/s²
